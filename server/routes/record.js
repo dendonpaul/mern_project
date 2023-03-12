@@ -1,7 +1,7 @@
 const express = require("express");
 const { ObjectId } = require("mongodb");
 const recordRoutes = express.Router();
-const dbo = require("../db/conn");
+const dbo = require("../db/Connection");
 const objectId = require("mongodb").ObjectId;
 
 //listing all the records
